@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  a{
+  text-decoration: none;
+  color: white;
+  }
+}
+
+header > img{
+  width: 100px;
+   
+}
+
+
+body{
+  background-color: #A1E3F6;
+}
+
+main{
+   .card-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 25px;
+     padding: 20px;
+   }
+    .card {
+        flex: 1 1 calc(50%-25%);
+        max-width: 400px;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        padding: 15px;
+       box-shadow: 5px 5px 15px 0 rgba(0,0,0);
+        transition: transform 0.3 ease;
+    }
+    .card:hover
+    {
+      transform: translateY(-8px)
+    }
+    .card > div > h2 {
+      padding-bottom: 25px;
+      text-align: center;
+    }
+    .card > img{
+      width: 200px;
+   }
+   .compras{
+     display: grid;
+     grid-column: auto;
+   }
+   .compras > button{
+      background: none;
+      border: 1px solid azure;
+      border-radius: 2px;
+      padding: 10px;
+      cursor: pointer;
+      transition: 0.4s ease;
+   }
+   .compras > button:hover {
+    background-color: white;
+   }
+   .compras > label{
+     font-size: large;
+     font-weight: bold;
+   }
+
+}
+
+footer {
+  background-color: #121212;
+  padding: 50px;
+  margin-top: 60px;
+  border: 1px solid #ccc;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start; 
+  font-size: larger;
+  .form {
+  border: 1px solid white;
+  padding: 20px;
+  background-color: #222;
+  width: 300px;
+  }
+}
+
+
+
+footer .form legend {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+footer .form-group {
+  margin-bottom: 15px;
+}
+
+footer .form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+footer .form input,
+footer .form textarea {
+  width: 100%;
+  padding: 8px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: white;
+}
+
+footer .form textarea {
+  height: 100px;
+  resize: vertical; 
+}
+
+footer .form button {
+  background: none;
+  border: 1px solid azure;
+  border-radius: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  color: white;
+}
+
+footer .form button:hover {
+  background-color: white;
+  color: #121212;
+}
+
+footer .iconos{
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  main{
+    .card{
+       flex: 1 1 calc(50% - 20px);
+    }
+  }
+}
