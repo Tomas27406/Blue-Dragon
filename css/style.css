@@ -100,40 +100,32 @@ footer {
   background-color: #222;
   width: 300px;
   }
-}
-
-
-
-footer .form legend {
+  .form legend {
   font-weight: bold;
   margin-bottom: 15px;
   font-size: 1.2em;
-}
-
-footer .form-group {
-  margin-bottom: 15px;
-}
-
-footer .form label {
+  }
+  .form-group {
+   margin-bottom: 15px;
+  }
+ .form label {
   display: block;
-  margin-bottom: 5px;
-}
-
-footer .form input,
-footer .form textarea {
+   margin-bottom: 5px;
+ }
+ .form input,
+ .form textarea {
   width: 100%;
   padding: 8px;
   background-color: #333;
   border: 1px solid #555;
   color: white;
-}
+ }
 
-footer .form textarea {
+ .form textarea {
   height: 100px;
   resize: vertical; 
-}
-
-footer .form button {
+ }
+ .form button {
   background: none;
   border: 1px solid azure;
   border-radius: 2px;
@@ -141,6 +133,8 @@ footer .form button {
   cursor: pointer;
   transition: 0.4s ease;
   color: white;
+ }
+
 }
 
 footer .form button:hover {
