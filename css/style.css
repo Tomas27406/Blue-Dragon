@@ -134,18 +134,16 @@ footer {
   transition: 0.4s ease;
   color: white;
  }
-
-}
-
-footer .form button:hover {
+ .form button:hover {
   background-color: white;
   color: #121212;
-}
-
-footer .iconos{
+ }
+  .iconos{
   display: flex;
   justify-content: flex-start;
+  }
 }
+
 
 @media (max-width: 768px) {
   main{
