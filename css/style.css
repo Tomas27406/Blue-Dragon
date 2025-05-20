@@ -27,18 +27,19 @@ header > img{
 }
 
 
-body{
-  background-color: #A1E3F6;
-}
+
 
 main{
+  background-color: #30c4ed;
    .card-container{
+    background-color: #30c4ed;
      display: flex;
      flex-wrap: wrap;
      gap: 25px;
      padding: 20px;
    }
     .card {
+      background-color: #30c4ed;
         flex: 1 1 calc(50%-25%);
         max-width: 400px;
         margin: 10px auto;
@@ -86,7 +87,7 @@ main{
 footer {
   background-color: #121212;
   padding: 50px;
-  margin-top: 60px;
+
   border: 1px solid #ccc;
   color: white;
   display: flex;
@@ -140,7 +141,7 @@ footer {
  }
   .iconos{
   display: flex;
-  justify-content: flex-start;
+  gap: 5px;
   }
 }
 
