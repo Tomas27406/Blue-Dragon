@@ -12,13 +12,13 @@
   <header>
       <img src="./img/blueD.png" alt="Logo">
       <nav>
-       <a href="#">Inicio</a>
-       <a href="#">Nosotros</a>
-       <a href="#">Contacto</a>
+       <a href="index.html">Inicio</a>
+       <a href="#producto">Producto</a>
+       <a href="#contacto">Contacto</a>
+       <a href="#video">Instalacion de pc Video</a>
      </nav>
   </header>
-  <section>
-    <div id="carouselExample" class="carousel slide">
+  <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="https://i0.wp.com/www.pcmrace.com/wp-content/uploads/2025/04/GEFORCE-RTX-50-DOOM-HERO.jpg" class="d-block w-100" alt="img1">
@@ -38,9 +38,8 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
-  </section>
-  <main>
+  </div>
+  <main id="producto">
       <h1>Productos</h1>
       <div class="card-container">
         <div class="card">
@@ -120,6 +119,23 @@
             
           </div>
           <div class="compras">
+            <label for="">$1500</label>
+            <button>Compras</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://logg.api.cygnus.market/static/logg/Global/Fuente_XPG_KYBER_850W_80_PLUS_Gold_Full_Modular_ATX3.1_12V_2x6/d915ad0bc0dd40c19d6343030bd00cd5.webp" alt="">
+          <div>
+            <h2>Fuente XPG KYBER 850W 80 PLUS Gold Full Modular ATX3.1 12V-2x6</h2>
+            <p>La memoria CORSAIR VENGEANCE RGB DDR5 brinda un rendimiento DDR5, 
+              con frecuencias elevadas y capacidades optimizadas para placas base Intel. 
+              Ilumina tu PC con una iluminación RGB dinámica y direccionable individualmente en 
+              diez zonas.
+             
+            </p>
+            
+          </div>
+          <div class="compras">
               <label for="">$1500</label>
               <button>Compras</button>
             </div>
@@ -129,27 +145,28 @@
       </div>
     
     </main>
-    <section>
+    <section id="video">
       <div class="contenedor-responsivo">
        <iframe class="iframe-responsivo" src="https://www.youtube.com/embed/kfFlfcrwZsE?si=GFqLBh2s2EUIsFHL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </section>
-    <footer>
+    <footer id="contacto">
       <div class="iconos">
        <ul>
+         <h3>Redes</h3>
           <li><a href="https://www.instagram.com" target="_blank">
          <i class="fa-brands fa-instagram" style="color: #d60ef1;"></i>
          </a> <p>Instagram</p></li>
          <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
          <i class="fab fa-whatsapp" style="color: #1FC25B;"></i>
          </a><p>Whatsapp</p></li>
-         <li><a href="" target="_blank">
+         <li><a href="https://github.com" target="_blank">
          <i class="fab fa-github" style="color: #600B99;"></i>
          </a> <p>Github</p></li>
        </ul>
       </div>
      <form class="form" action="https://formspree.io/f/xkgryyyo" method="POST">
-     <legend>Envianos tu consulta</legend>
+     <legend>Envianos tu Mensaje</legend>
      <div class="form-group">
       <label for="name">Nombre del usuario</label>
       <input type="text" name="name" id="name" required>

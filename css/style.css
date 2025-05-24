@@ -154,12 +154,10 @@ footer {
   background-color: white;
   color: #121212;
  }
-  .iconos{
-   display: flex;
-  gap: 5px;
-  }
+  
   .iconos li {
    display: flex;
+   gap: 5px;
    text-decoration: none;
 
   }
