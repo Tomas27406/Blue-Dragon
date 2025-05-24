@@ -85,6 +85,22 @@ main{
 
 
 }
+section{
+  background-color:#30c4ed;
+  .contenedor-responsivo {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .iframe-responsivo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
 
 footer {
   background-color: #121212;
@@ -96,7 +112,7 @@ footer {
   align-items: flex-start; 
   font-size: larger;
   .form {
-  padding: 20px;
+  padding: 10px;
   background-color: #222;
   width: 300px;
   }
@@ -139,22 +155,35 @@ footer {
   color: #121212;
  }
   .iconos{
-  display: flex;
+  align-items: center;
   gap: 5px;
   }
+  .iconos li {
+    display: flex;
+  gap: 4px;
+  text-decoration: none;
+
+}
+
+
+
+
 }
 
 
 @media (max-width: 768px) {
-  main{
+    main {
     .card-container {
-    grid-template-columns: repeat(2,1fr);
-  }
-  .card {
-      width: 100%;
+      grid-template-columns: 1fr; 
+      gap: 1rem;
     }
- }
 
+    .card {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
 
 }
 
