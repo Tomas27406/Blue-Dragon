@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/registro.css">
+</head>
+<body>
+    <header>
+      <img src="./img/blueD.png" alt="logo">
+    </header>
+    <form class="form" action="https://formspree.io/f/xkgryyyo" method="POST">
+        <legend>Registrarse a la pagina</legend>
+     <fieldset>
+     <div class="form-group">
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name" required>
+     </div>
+     <div class="form-group">
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" id="apellido" required>
+     </div>
+     <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+     </div>
+     <div class="form-group">
+      <label for="fecha">Fecha de nacimiento</label>
+      <input type="date" name="fecha" id="fecha" required>
+     </div>
+     </fieldset>
+     <button type="submit">Enviar</button>
+     
+    </form>
+
+    
+</body>
+</html>
