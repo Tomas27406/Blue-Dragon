@@ -5,17 +5,22 @@ body{
         display: flex;
         justify-content: center;
     }
-    header > img {
+    header, a > img {
         width: 200px;
-        height: 200px;
+        height: 190px;
+        display: flex;
+        justify-self: center;
     }
-    display: flex;
-    justify-content: center;
+    section
+    {
+       justify-self: center;
+    }
     .form {
       padding: 10px;
       width: 300px;
       fieldset{
         border: 3px solid rgb(246, 244, 244);
+        border-radius: 5px;
       }
     }
     .form legend {
@@ -34,6 +39,7 @@ body{
         padding: 8px;
         background-color: #4f96d0;
         border: 1px solid #8fdef0;
+        border-radius: 10px;
         color: white;
     }
     .form button {
@@ -49,6 +55,7 @@ body{
     background-color: white;
     color: #121212;
    }
+  
     
       
  
