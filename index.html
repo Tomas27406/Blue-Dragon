@@ -16,9 +16,18 @@
        <a href="#producto">Productos</a>
        <a href="#contacto">Contactos</a>
        <a href="#video">Instalacion de pc Video</a>
-       <a href="./Registro.html" target="_blank">Registrarse</a>
-     </nav>
+       <div class="icon-carrito">
+            <a href="./carrito.html" onclick="handleCart()">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                     d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1m-9-1a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1a1 1 0 0 0 1 1a1 1 0 0 0 1-1a1 1 0 0 0-1-1M18 6H4.27l2.55 6H15c.33 0 .62-.16.8-.4l3-4c.13-.17.2-.38.2-.6a1 1 0 0 0-1-1m-3 7H6.87l-.77 1.56L6 15a1 1 0 0 0 1 1h11v1H7a2 2 0 0 1-2-2a2 2 0 0 1 .25-.97l.72-1.47L2.34 4H1V3h2l.85 2H18a2 2 0 0 1 2 2c0 .5-.17.92-.45 1.26l-2.91 3.89c-.36.51-.96.85-1.64.85" />
+               </svg>
+               <div class="count"></div>
+            </a>
+         </div>
   </header>
+     </nav>
+     
   <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -40,8 +49,8 @@
         <span class="visually-hidden">Next</span>
       </button>
   </div>
-  <main id="producto">
-      <h1>Productos</h1>
+  <main>
+      <h1 style="text-align: center;">Productos</h1>
       <div class="card-container">
         <div class="card">
           <img src="https://static.gigabyte.com/StaticFile/Image/Global/cc307cf8fe9c82330869634a3539db5b/Product/26313/Png" alt="placa">
@@ -53,7 +62,7 @@
             </p>
           </div>
           <div class="compras">
-            <label for="">$1200</label>
+            <label>$1200</label>
             <button>Compras</button>
           </div>
         </div>
@@ -81,7 +90,7 @@
               carga rápida de 60W. ROG continúa el proyecto EVANGELION para jugadores con un nuevo diseño de máquina centrado en 
               EVA-02 y Asuka. La segunda colección debutó con placas base, tarjetas gráficas, 
               cajas de juegos para tarjeteros, refrigeradores todo en uno, periféricos y equipo.
-              Construye la máquina completa y alcanza altos niveles de sincronización con Asuka.​
+              Construye la máquina completa y alcanza altos niveles de sincronización con Asuka.
             </p>
           </div>
           <div class="compras">
@@ -121,7 +130,7 @@
           </div>
           <div class="compras">
             <label for="">$1500</label>
-            <button>Compras</button>
+            <button >Compras</button>
           </div>
         </div>
         <div class="card">
@@ -155,12 +164,12 @@
       <div class="iconos">
        <ul>
          <h3>Redes</h3>
-          <li><a href="https://www.instagram.com" target="_blank">
-         <i class="fa-brands fa-instagram" style="color: #d60ef1;"></i>
-         </a> <p>Instagram</p></li>
+          <li> <a href="https://www.instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram" style="color: #d60ef1;"></i>
+          </a> <p>Instagram</p></li>
          <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
          <i class="fab fa-whatsapp" style="color: #1FC25B;"></i>
-         </a><p>Whatsapp</p></li>
+         </a> <p>Whatsapp</p></li>
          <li><a href="https://github.com" target="_blank">
          <i class="fab fa-github" style="color: #600B99;"></i>
          </a> <p>Github</p></li>
@@ -185,6 +194,7 @@
    
      
     </footer>
+    <script src="./js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
