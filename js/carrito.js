@@ -1,4 +1,5 @@
 function handleCart() {
+   //Carrito
    const CARRITO = JSON.parse(localStorage.getItem('productos')) || [];
    const TOTAL = localStorage.getItem('total') || 0;
 
