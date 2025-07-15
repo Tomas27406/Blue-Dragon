@@ -213,7 +213,7 @@ main{
   cursor: pointer;
   transition: 0.5s ease;
   padding: 0.5rem 1.5rem;
-  margin: 1rem auto 0 auto; /* centro el botón */
+  margin: 1rem auto 0 auto; 
   display: block;
 }
 
